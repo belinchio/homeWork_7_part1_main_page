@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1600px;
+}
+
+header {
+    width: 1200px;
+    margin: 30px 200px 0 200px;
+    display: flex;
+    align-items: center;
+    border: 3px solid darkred;
+}
+
+.tea__collection ul {
+    width: 583px;
+    height: 27px;
+    margin: 58px 125px 58px 235px;
+    list-style-type: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 65px;
+    border: 1px solid blue;
+}
+
+.main__menu ul {
+    width: 180px;
+    height: 29px;
+    margin: 58px 5px 58px 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#search {
+    margin-left: 70px;
+}
