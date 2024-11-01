@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +16,10 @@ header {
     margin: 30px 200px 0 200px;
     display: flex;
     align-items: center;
-    border: 3px solid darkred;
+}
+
+.logo {
+    margin-bottom: 37px;
 }
 
 .tea__collection ul {
@@ -29,19 +33,206 @@ header {
     justify-content: start;
     align-items: center;
     gap: 65px;
-    border: 1px solid blue;
 }
 
-.main__menu ul {
-    width: 180px;
-    height: 29px;
-    margin: 58px 5px 58px 0;
-    list-style-type: none;
+.main__menu {
     display: flex;
     align-items: center;
     gap: 20px;
 }
+.search {
+    margin: 60px 5px 60px 100px;
+}
 
-#search {
-    margin-left: 70px;
+.header {
+    width: 1600px;
+    height: 500px;
+    margin-top: 28px;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header p:first-child {
+    padding: 254px 610px 20px 200px;
+    font-family: "Cormorant", serif;
+    font-size: 60px;
+    font-weight: 400;
+    color: white;
+    line-height: 60px;
+}
+
+.header p:last-child {
+    padding: 0 841px 48px 200px;
+    font-family: "Cormorant", serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    line-height: 29px;
+}
+
+.slogan {
+    width: 704px;
+    height: 96px;
+    margin: 150px 488px 0 448px;
+    font-family: "Cormorant", serif;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 48px;
+    color: #151618;
+    text-align: center;
+}
+
+.explore {
+    width: 1200px;
+    height: 355px;
+    text-align: center;
+    margin: 150px 200px 0 200px;
+    font-family: "Cormorant", serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.products {
+    width: 1200px;
+    height: 247px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
+}
+
+.card {
+    width: 208px;
+    height: 247px;
+    font-family: "Cormorant", serif;
+    font-size: 24px;
+    color: #151618;
+}
+
+.testimonials {
+    margin-top: 150px;
+    width: 1600px;
+    height: 397px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(247, 242, 234, 0.7);
+
+}
+
+.title {
+    padding-top: 60px;
+    text-align: center;
+    font-family: "Cormorant", serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.comments__card {
+    margin-top: 60px;
+    width: 1198px;
+    height: 169px;
+    display: flex;
+    gap: 26px;
+}
+
+.comments {
+    width: 280px;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    color: #151618;
+}
+
+.comments p:last-child {
+    margin-top: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+    color: #151618;
+}
+
+.blog {
+    width: 1142px;
+    height: 620px;
+    margin: 150px 258px 0 200px;
+    text-align: center;
+}
+
+.blog .title {
+    padding: 0;
+    text-align: center;
+    font-family: "Cormorant", serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.cards {
+    width: 1142px;
+    margin: 60px 0;
+    display: flex;
+    gap: 40px 58px;
+    flex-wrap: wrap;
+}
+
+.blog__card {
+    width: 542px;
+    height: 180px;
+    display: flex;
+    gap: 20px;
+    text-align: left;
+}
+
+.blog__card__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog__card__content .text {
+    width: 255px;
+    height: 86px;
+    font-family: "Cormorant", serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #151618;
+}
+
+.blog__card__content .author{
+    margin-top: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #151618;
+}
+
+.blog__card__content a {
+    margin-top: 48px;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #151618;
+}
+
+.blog button {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #151618;
+    border: 1px solid #151618;
+    cursor: pointer;
 }
